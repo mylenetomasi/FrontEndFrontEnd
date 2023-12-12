@@ -1,0 +1,209 @@
+body {
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+
+select{
+  border: 2px solid #939393;
+  height: 40px;
+  width: 100%;
+  margin: 0px 0px 15px 0px;
+}
+.senao{
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+.bx-error {
+  font-size: 50px;
+  color: #939393;;
+}
+.aviso{
+  color: #939393;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.livro {
+  display: inline;
+  width: 210px;
+  height: 163px;
+  border: 1px solid #e17eb1;
+  padding: 15px;
+  margin: 12px;
+}
+strong{
+  text-decoration: underline solid #e17eb1;
+}
+main{
+  padding: 15px;
+}
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+.iniciopg{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.bx-user-pin{
+  font-size: 50px;
+}
+.linha_livros {
+  display: flex;
+  justify-content: center;
+}
+
+.admin{
+  position: absolute;
+  bottom: 0;
+}
+
+.info_nome {
+  float: left;
+}
+.info_valor {
+  float: right;
+}
+.info_exvalor {
+  float: right;
+  padding-right: 10px;
+  color: rgba(88, 88, 88, 0.616);
+  text-decoration: line-through;
+}
+.title {
+  color: #e17eb1;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#edsi {
+  width: 30%;
+}
+.form input{
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid rgb(147, 147, 147);
+  padding: 0 10px;
+  margin: 5px;
+}
+.form button{
+  margin-left: 1px;
+  width: 20%;
+  height: 40px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  background-color:#e17eb1;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: #ffffff;
+  border: 3px solid #e17eb1;
+  color: #e17eb1;
+  transition: all 0.5s ease;
+}
+.form-input {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #e6888817;
+  padding: 50px;
+  margin: 0 auto;
+  width: 50%;
+}
+.form-input input {
+  width: 100%;
+  height: 40px;
+  background-color: #e1929217;
+  border: none;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 5px 0px 22px 0px;
+}
+.form-input select {
+  width: 100%;
+  height: 40px;
+  background-color: #e1929217;
+  border: none;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 5px 0px 22px 0px;
+}
+.input_center, .center {
+  display: flex;
+  justify-content: center;
+}
+#input_quant, #input_pre{
+  width: 49%;
+  margin-left: 4px;
+}
+ button {
+  margin-left: 1px;
+  width: 40%;
+  height: 40px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  background-color:#1fcac5;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover,  button:focus {
+  background-color: #ffffff;
+  border: 3px solid #e17eb1;
+  color: #e17eb1;
+}
+.list-livros {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.list-livros table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 2em;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+thead {
+  outline: none;
+  background: #e17eb1;
+}
+
+tr td {
+  color: #425675;
+  font-weight: 600;
+}
+td,
+th {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
